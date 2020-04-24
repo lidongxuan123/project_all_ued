@@ -1,0 +1,53 @@
+@mallhome_margin1: 34px;
+@mallhome_margin2: 17px;
+@mallhome_margin3: 15px;
+@mallhome_margin4: 12px;
+
+@mallhome_imgwidth1: 49px;
+@mallhome_imgwidth2: 171px;
+
+@mallhome_imgheight1: 49px;
+@mallhome_imgheight2: 171px;
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+  @mallhome_margin1: 34px;
+  @mallhome_margin2: 17px;
+  @mallhome_margin3: 15px;
+  @mallhome_margin4: 12px;
+
+  @mallhome_imgwidth1: 49px;
+  @mallhome_imgwidth2: 171px;
+
+  @mallhome_imgheight1: 49px;
+  @mallhome_imgheight2: 171px;
+
+}
+
+@box-shadow: 0 2px 8px 0 rgba(0,102,153,0.08);
+@border-radius: 13.43px 13.43px 13.43px 4px;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/*定制主按钮样式*/
+:global(.am-button.am-button-primary) {
+  background-image: linear-gradient(270deg, #F85800 0%, #D41C07 93%);
+  font-size: 14px;
+  color: #FFFFFF;
+  border-radius: 25px;
+}
+
+/*定制弹出框样式*/
+:global(.am-modal.am-modal-transparent) {
+  width: 335px;
+  .am-modal-content {
+    border-radius: 16px;
+  }
+}
+
+

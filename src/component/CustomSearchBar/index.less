@@ -1,0 +1,101 @@
+/*定制搜索栏样式*/
+.customSearchBar {
+  min-height: 52px;
+  background: #FFFFFF;
+  color: #8C8C8C;
+  box-shadow: 0 4px 14px 0 #F9F6F6;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  align-items: center;
+  .searchBarLeft {
+    height: 37px;
+    padding: 9px 1px 4px 15px;
+  }
+  .searchBarRight {
+
+  }
+  :global {
+    .am-search.am-search-start {
+      .am-search-input {
+        .am-search-value {
+          padding: 0 28px 0 45px;
+        }
+      }
+    }
+  }
+  :global {
+    .am-search {
+      background: #FFFFFF;
+      padding: 6px 0 0 0;
+      .am-search-input {
+        width: 297px;
+        height: 34px;
+        background: #F0F0F0;
+        border-radius: 17px;
+        .am-search-value {
+          height: 34px;
+        }
+        .am-search-synthetic-ph {
+          padding-left: 15px;
+          height: 34px;
+          line-height: 0;
+          .am-search-synthetic-ph-container {
+            height: 34px;
+            //margin: 5px 2px 5px 3px;
+            .am-search-synthetic-ph-icon {
+              display: block;
+              height: 24px;
+              width: 24px;
+              margin: 5px 2px 5px 3px;
+              background-size: 24px;
+              background-image: url(../../assets/ic_home_search.png);
+            }
+          }
+        }
+        a.am-search-clear {
+          padding: 7px 15px;
+          height: 20px;
+          width: 18px;
+          background-size: 20px 18px;
+        }
+      }
+      .am-search-cancel {
+        display: none;
+        padding-left: 10px;
+        font-size: 13px;
+        color: #8C8C8C;
+        letter-spacing: 0;
+        text-align: center;
+      }
+      .am-search-synthetic-ph-placeholder {
+        font-size: 14px;
+        color: #8C8C8C;
+        letter-spacing: 0;
+        display: block;
+        text-align: left;
+        margin-left: 28px;
+        margin-top: -16px;
+      }
+    }
+    .am-navbar-title {
+      padding-top: 13px;
+    }
+  }
+}
+.navSearchIcon {
+  width: 24px;
+  height: 24px;
+  background: url(../../assets/ic_nav_arrow.png) no-repeat center 0;
+}
+.navBarTitle {
+  margin-bottom: 19px;
+  span {
+    font-size: 16px;
+    color: #3A2E2E;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 16px;
+  }
+}
+
+

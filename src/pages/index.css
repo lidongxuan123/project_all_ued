@@ -1,0 +1,10 @@
+
+/*有卡片界面背景样式*/
+.contain_card_bg {
+  background-color: #F9F6F6;
+}
+/*成功失败界面背景样式*/
+.contain_message_bg {
+  background-color: #FFFFFF;
+}
+
